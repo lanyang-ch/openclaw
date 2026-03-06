@@ -46,7 +46,7 @@ npm --version
 
 官网地址: https://nodejs.org/en/download
 
-![image-20260306080907156](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260306080907156.png)
+![image-20260306080907156](images/image-20260306080907156.png)
 
 ---
 
@@ -95,7 +95,7 @@ openclaw onboard --install-daemon
 
 风险提示，直接选择 **Yes**
 
-![风险提示](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260304095205118.png)
+![风险提示](images/image-20260304095205118.png)
 
 ---
 
@@ -104,7 +104,7 @@ openclaw onboard --install-daemon
 - **Quick)**: 使用默认配置
 - **Manual (手动配置)**: 自定义所有选项
 
-![选择安装模式](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260304095317368.png)
+![选择安装模式](images/image-20260304095317368.png)
 
 > 💡 **建议**: 初学者选择 QuickStart，本手册选择 Manual 进行详细说明
 
@@ -112,7 +112,7 @@ openclaw onboard --install-daemon
 
 #### Step 3: 选择启动本地网关
 
-![启动本地网关](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162232021.png)
+![启动本地网关](images/image-20260305162232021.png)
 
 ---
 
@@ -121,7 +121,7 @@ openclaw onboard --install-daemon
 - 默认: `~/.openclaw/workspace`
 - 可以自定义路径
 
-![设置工作区](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162546271.png)
+![设置工作区](images/image-20260305162546271.png)
 
 ---
 
@@ -129,21 +129,21 @@ openclaw onboard --install-daemon
 
 选择推荐的 **MiniMax**
 
-![选择模型](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162627077.png)
+![选择模型](images/image-20260305162627077.png)
 
 认证方式选择 **OAuth**
 
-![认证方式](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162718734.png)
+![认证方式](images/image-20260305162718734.png)
 
 选择 **CN**，完成后会跳转到 Minimax 网站授权，选择授权即可
 
-![选择区域](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162817731.png)
+![选择区域](images/image-20260305162817731.png)
 
-![授权](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162912380.png)
+![授权](images/image-20260305162912380.png)
 
 授权完成后，选择大模型，默认即可
 
-![选择大模型](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305162958879.png)
+![选择大模型](images/image-20260305162958879.png)
 
 ---
 
@@ -156,11 +156,11 @@ openclaw onboard --install-daemon
 | Auth Mode | token | 认证模式 |
 | Tailscale | off | 内网穿透 |
 
-![Gateway配置1](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163019450.png)
+![Gateway配置1](images/image-20260305163019450.png)
 
-![Gateway配置2](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163035453.png)
+![Gateway配置2](images/image-20260305163035453.png)
 
-![Gateway配置3](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163052502.png)
+![Gateway配置3](images/image-20260305163052502.png)
 
 ---
 
@@ -168,7 +168,7 @@ openclaw onboard --install-daemon
 
 这里先不做配置，后面会单独配置飞书
 
-![跳过频道](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163147112.png)
+![跳过频道](images/image-20260305163147112.png)
 
 可选频道：
 - 📱 WhatsApp
@@ -183,7 +183,7 @@ openclaw onboard --install-daemon
 
 跳过，不安装。选择 **No**
 
-![跳过Skills](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163243263.png)
+![跳过Skills](images/image-20260305163243263.png)
 
 ---
 
@@ -191,7 +191,7 @@ openclaw onboard --install-daemon
 
 跳过，按空格键选择，再按回车确认
 
-![跳过Hooks](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163347416.png)
+![跳过Hooks](images/image-20260305163347416.png)
 
 ---
 
@@ -199,13 +199,13 @@ openclaw onboard --install-daemon
 
 向导会自动启动 Gateway 并验证是否正常运行
 
-![启动网关](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163436191.png)
+![启动网关](images/image-20260305163436191.png)
 
 选择 **Open the Web UI**，会在浏览器中打开
 
-![Web UI 1](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163501951.png)
+![Web UI 1](images/image-20260305163501951.png)
 
-![Web UI 2](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305163610219.png)
+![Web UI 2](images/image-20260305163610219.png)
 
 ---
 
@@ -241,7 +241,7 @@ openclaw status
 2. 点击进入开发者后台：https://open.feishu.cn/app
 3. 创建自建应用
 
-![创建应用](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305164412569.png)
+![创建应用](images/image-20260305164412569.png)
 
 ---
 
@@ -249,7 +249,7 @@ openclaw status
 
 点击添加机器人
 
-![添加机器人](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305164521955.png)
+![添加机器人](images/image-20260305164521955.png)
 
 ---
 
@@ -257,7 +257,7 @@ openclaw status
 
 配置权限，选择 **批量导入**
 
-![配置权限](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305165241587.png)
+![配置权限](images/image-20260305165241587.png)
 
 填入以下内容，并确认申请开通：
 
@@ -294,7 +294,7 @@ openclaw status
 }
 ```
 
-![申请开通](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305165029095.png)
+![申请开通](images/image-20260305165029095.png)
 
 ---
 
@@ -302,11 +302,11 @@ openclaw status
 
 创建并发布版本
 
-![发布版本](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305165458036.png)
+![发布版本](images/image-20260305165458036.png)
 
 发布成功后，查看 **App ID** 和 **密钥**，后面要用
 
-![查看密钥](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305165614508.png)
+![查看密钥](images/image-20260305165614508.png)
 
 ---
 
@@ -314,13 +314,13 @@ openclaw status
 
 手动配置时，配置 channel 的地方选择飞书，后面会让你输入密钥和 App ID，复制上边的值就可以
 
-![配置Channel1](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305170703754.png)
+![配置Channel1](images/image-20260305170703754.png)
 
-![配置Channel2](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260304100606223.png)
+![配置Channel2](images/image-20260304100606223.png)
 
 最后配置到
 
-![最终配置](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305171146173.png)
+![最终配置](images/image-20260305171146173.png)
 
 ---
 
@@ -330,13 +330,13 @@ openclaw status
 
 选择保存时会提示，这里说明 OpenClaw 那里没有配置好飞书的 channel
 
-![事件配置1](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305170030302.png)
+![事件配置1](images/image-20260305170030302.png)
 
-![事件配置2](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305170121961.png)
+![事件配置2](images/image-20260305170121961.png)
 
 添加下面这个事件并保存
 
-![添加事件](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305171232820.png)
+![添加事件](images/image-20260305171232820.png)
 
 > 🔔 **重要**: 以上配置好后再发布一个版本即可使用飞书交互
 
@@ -346,11 +346,11 @@ openclaw status
 
 复制配对命令，执行配置
 
-![回调配置](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305171802530.png)
+![回调配置](images/image-20260305171802530.png)
 
 再聊天就可以正常收发消息了
 
-![完成](C:\Users\Lenovo\AppData\Roaming\Typora\typora-user-images\image-20260305171923436.png)
+![完成](images/image-20260305171923436.png)
 
 ---
 
